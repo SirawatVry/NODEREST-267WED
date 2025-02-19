@@ -49,3 +49,6 @@ app.post('/books',(req,res)=>{
         res.status(500).send(err);
     });
 });
+app.put('books/:id', (req,res)=>{
+    Book.findByPk(req.params.id).then
+})
