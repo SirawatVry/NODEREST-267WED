@@ -2,6 +2,7 @@
 // npm install express mongoose
 // Run this file with node index.js
 // Test with Postman
+require("dotenv").config();
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
